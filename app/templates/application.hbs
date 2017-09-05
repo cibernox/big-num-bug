@@ -1,3 +1,11 @@
 small number: {{number-wtf 42389 label="small"}}
 <br>
-big number: {{number-wtf 423890807700 label="small"}}
+8 digits: {{number-wtf 42389080 label="8 digits"}}
+<br>
+9 digits: {{number-wtf 423890807 label="9 digits"}}
+<br>
+10 digits: commented because it breaks the app {{!-- {{number-wtf 4238908077 label="10 digits"}} --}}
+<br>
+11 digits: commented because it breaks the app {{!-- {{number-wtf 42389080770 label="11 digits"}} --}}
+<br>
+12 digits: renders nothing {{number-wtf 423890807700 label="12 digits"}}
